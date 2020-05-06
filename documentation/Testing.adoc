@@ -1,17 +1,32 @@
 == Test
+
+=== Unit test
 [code]
 ----
 poetry add --dev pytest
 
 poetry run pytest
+----
 
+=== Coverage
+----
 poetry add --dev coverage[toml] pytest-cov
 
 poetry run pytest --cov
+----
 
+=== Automate tests with multiple session python
+----
 pip install --user --upgrade nox
 
 nox
 
 nox -r
+
+nox -- tests/test_console.py
+----
+
+=== Mock
+----
+poetry add --dev pytest-mock
 ----
