@@ -60,4 +60,6 @@ poetry run hypermodern-python
 poetry run hypermodern-python --help
 
 poetry add requests
+
+poetry run hypermodern-python
 ----
