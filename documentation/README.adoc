@@ -1,0 +1,7 @@
+= hypermodern-python
+
+Python good pratice step by step
+
+Implementation of Medium Article
+link:https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769[Hypermodern Python]
+

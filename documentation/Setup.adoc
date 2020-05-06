@@ -1,0 +1,15 @@
+== Setup
+
+=== Commands
+
+[code:sh]
+----
+curl https://pyenv.run | bash
+----
+
+Add in .bashrc::
+----
+export PATH="~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+----
