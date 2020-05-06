@@ -8,4 +8,10 @@ poetry run pytest
 poetry add --dev coverage[toml] pytest-cov
 
 poetry run pytest --cov
+
+pip install --user --upgrade nox
+
+nox
+
+nox -r
 ----
