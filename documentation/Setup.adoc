@@ -20,7 +20,10 @@ From https://github.com/pyenv/pyenv/wiki/common-build-problems
 ----
 sudo yum install -y zlib-devel bzip2 bzip2-devel readline-devel sqlite \
 sqlite-devel openssl-devel xz xz-devel libffi-devel findutils
+----
 
+[code:sh]
+----
 pyenv install 3.8.2
 pyenv install 3.7.7
 
