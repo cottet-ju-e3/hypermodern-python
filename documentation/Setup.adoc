@@ -63,3 +63,9 @@ poetry add requests
 
 poetry run hypermodern-python
 ----
+
+Locate python poetry env
+----
+poetry env info
+----
+Then add python bin path to pycharm python interpreter
