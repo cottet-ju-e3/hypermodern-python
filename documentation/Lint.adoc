@@ -1,0 +1,9 @@
+Add insecure package
+----
+poetry add insecure-package
+----
+
+To test unsecure library : Then run `nox -rs safety`
+
+After test remove insecure-package by doing `poetry remove insecure-package`
+
