@@ -7,3 +7,5 @@ link:https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769[Hypermodern P
 
 include::Setup.adoc[]
 include::Testing.adoc[]
+include::Lint.adoc[]
+include::Lint.adoc[]
