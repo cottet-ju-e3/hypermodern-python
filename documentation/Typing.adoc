@@ -1,0 +1,10 @@
+= Typing
+
+----
+poetry add --dev mypy
+nox -rs mypy
+----
+
+
+== TODO :
+All article from "Data validation using Desert and Marshmallow"
